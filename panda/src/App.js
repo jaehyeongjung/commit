@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes ,useNavigate} from "react-router
 import Header from "./components/Header";
 import ProductGallery from "./components/ProductGallery"; // ProductGallery 추가
 import AddItemPage from "./components/AddItemPage"; 
+import ItemDetailPage from "./components/ItemDetailPage"; 
 
 
 function RedirectToItems() {
@@ -32,7 +33,15 @@ function App() {
            </>
           }
         />
-
+        <Route 
+          path="/items/:productId" 
+          element={
+          <>  
+            <Header />
+            <ItemDetailPage />
+          </>      
+          } 
+        />
         <Route 
           path="/additem"  
           element= {
