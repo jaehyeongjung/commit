@@ -1,0 +1,914 @@
+.body {
+  max-width: 1920px;
+  height: 1573px;
+}
+
+.ItemDetail_Container {
+  height: 1257px;
+  width: 1200px;
+  display: flex;
+  background-color: white;
+  margin: 24px auto;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.ItemDetail {
+  height: 1145px;
+  width: 1200px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ItemDetail-Data_Container {
+  width: 100%;
+  height: 536px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ItemDetail-Comment {
+  width: 100%;
+  height: 569px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ItemDetail-Footer {
+  display: flex;
+  justify-content: center;
+}
+
+.ItemDetail-Footer_Btn {
+  width: 240px;
+  height: 48px;
+  border-radius: 40px;
+  background-color: #3692ff;
+  border: none;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ItemDetail-Data {
+  width: 100%;
+  height: 496px;
+  background-color: white;
+  display: flex;
+  gap: 24px;
+}
+
+.ItemDetail-Data_Img {
+  width: 486px;
+  height: 486px;
+  background-color: brown;
+  border-radius: 16px;
+}
+
+.ItemDetail-Data_Img img {
+  width: 486px;
+  height: 486px;
+  border-radius: 16px;
+}
+
+.ItemDetail-Data-Text_Container {
+  width: 690px;
+  height: 496px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.ItemDetail-Comment_Register {
+  width: 100%;
+  height: 197px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ItemDetail-Comment_List {
+  width: 100%;
+  height: 348px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ItemDetail-Data-Text {
+  width: 100%;
+  height: 384px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ItemDetail-Data-Footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ItemDetail-Data-Footer_Profile {
+  width: 134px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  gap: 16px;
+}
+
+.ItemDetail-Data-Footer_Heart {
+  width: 111px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ItemDetail-Data-Text-Header_Container {
+  width: 100%;
+  height: 112px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ItemDetail-Data-Text-Header {
+  width: 100%;
+  height: 96px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ItemDetail-Data-Text-Footer {
+  width: 100%;
+  height: 248px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ItemDetail-Data-Text-Header-Text {
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ItemDetail-Data-Text-Header_Btn {
+  width: 24px;
+  height: 24px;
+  background-color: darkcyan;
+}
+
+.ItemDetail-Data-Text-Header-Text_Title {
+  width: 100%;
+  height: 32px;
+  background-color: white;
+}
+
+.ItemDetail-Data-Text-Header-Text_Price {
+  width: 100%;
+  height: 48px;
+  background-color: white;
+}
+
+.Price_text {
+  font-family: Pretendard;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47.73px;
+  text-align: left;
+  margin: 0;
+}
+
+.Title_text {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  margin: 0;
+}
+
+.ItemDetail-Data-Text-Footer_Descrption {
+  width: 100%;
+  height: 146px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ItemDetail-Data-Text-Footer_Tag {
+  width: 100%;
+  height: 78px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ItemDetail-Data-Text-Footer_Descrption-Title {
+  height: 26px;
+  width: 100%;
+  background-color: white;
+}
+
+.ItemDetail-Data-Text-Footer_Tag-Title {
+  height: 26px;
+  width: 100%;
+  background-color: white;
+}
+
+.ItemDetail-Data-Text-Footer_Descrption-Detail {
+  background-color: white;
+  height: 104px;
+  width: 100%;
+}
+
+.Descrition-Title-Text {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+
+.ItemDetail-Data-Text-Footer_Tag-List {
+  height: 36px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.product-description {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #4b5563;
+  margin: 0;
+}
+
+.tag {
+  background-color: #f3f4f6;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #1f2937;
+}
+
+.ItemDetail-Data-Footer_Profile_Text {
+  background-color: white;
+  height: 100%;
+  width: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ItemDetail-Data-Footer_Profile_Logo {
+  background-color: white;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ItemDetail-Data-Footer_Profile_Text_nickname {
+  background-color: white;
+  height: 24px;
+  width: 100%;
+}
+
+.ItemDetail-Data-Footer_Profile_Text_Date {
+  background-color: white;
+  height: 24px;
+  width: 100%;
+}
+
+.Nickname {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #4b5563;
+}
+
+.Date {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9ca3af;
+}
+
+.ItemDetail-Data-Footer_Heart_btn {
+  width: 87px;
+  height: 40px;
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemDetail-Data-Footer_Heart_btn_inner {
+  width: 63px;
+  height: 32px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: white;
+}
+
+.heartIcon {
+  height: 100%;
+  width: 32px;
+}
+
+.faovriteCount {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #6b7280;
+}
+
+.ItemDetail-Comment_Register_Input_Container {
+  background-color: white;
+  height: 139px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.ItemDetail-Comment_Register_Input_Title {
+  background-color: white;
+  height: 26px;
+  width: 65px;
+}
+
+.ItemDetail-Comment_Register_Input {
+  width: 1196px;
+  height: 104px;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  border: none;
+  padding: 0 0 0 24px; /* 위쪽 패딩을 0으로, 왼쪽은 24px */
+  box-sizing: border-box; /* 패딩 포함 크기 계산 */
+  line-height: normal; /* 줄 높이 설정 */
+  padding-bottom: 40px;
+}
+
+.ItemDetail-Comment_Register_Btn {
+  width: 74px;
+  height: 42px;
+  background-color: #9ca3af;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.ItemDetail-Comment_Register_Btn_text {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #f3f4f6;
+}
+
+/* 플레이스홀더 텍스트 위치 조정 */
+.ItemDetail-Comment_Register_Input::placeholder {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #9ca3af;
+}
+
+.ItemDetail-Footer_Btn_Text {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  color: #f3f4f6;
+}
+
+.ItemDetail-Comment_Lists {
+  width: 1200px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  gap: 24px;
+}
+
+.ItemDetail-Comment_Lists_Text {
+  width: 100%;
+  height: 24px;
+  background-color: white;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f2937;
+}
+
+.ItemDetail-Comment_Lists_Text_font {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f2937;
+}
+
+.ItemDetail-Comment_Lists_Profile {
+  width: 92px;
+  height: 40px;
+  display: flex;
+  gap: 8px;
+  background-color: white;
+}
+
+.ItemDetail-Comment_Lists_Profile_text {
+  height: 40px;
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 4px;
+}
+
+.ItemDetail-Comment_Lists_Profile_text_nickname {
+  width: 100%;
+  height: 18px;
+  background-color: white;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin: 0;
+  color: #4b5563;
+}
+
+.ItemDetail-Comment_Lists_Profile_text_time {
+  width: 100%;
+  height: 18px;
+  background-color: white;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin: 0;
+  color: #9ca3af;
+}
+
+.ItemDetail-Comment_Lists_Profile_img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    max-width: 1024px;
+    height: 1573px;
+  }
+
+  .ItemDetail_Container {
+    height: 1236px;
+    width: 696px;
+    gap: 56px;
+  }
+
+  .ItemDetail {
+    height: 1132px;
+    width: 696px;
+    gap: 40px;
+  }
+
+  .ItemDetail-Data_Container {
+    height: 516px;
+  }
+
+  .ItemDetail-Comment {
+    height: 576px;
+    gap: 40px;
+  }
+
+  .ItemDetail-Data {
+    height: 484px;
+    gap: 24px;
+  }
+
+  .ItemDetail-Data_Img {
+    width: 340px;
+    height: 340px;
+    background-color: brown;
+    border-radius: 16px;
+  }
+
+  .ItemDetail-Data_Img img {
+    width: 340px;
+    height: 340px;
+    border-radius: 16px;
+  }
+
+  .ItemDetail-Data-Text_Container {
+    width: 340px;
+    height: 484px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ItemDetail-Comment_List {
+    height: 339px;
+    gap: 24px;
+  }
+
+  .ItemDetail-Data-Text {
+    height: 394px;
+    gap: 16px;
+  }
+
+  .ItemDetail-Data-Text-Header_Container {
+    width: 100%;
+    height: 98px;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .ItemDetail-Data-Text-Header {
+    height: 82px;
+  }
+
+  .ItemDetail-Data-Text-Footer {
+    height: 280px;
+    gap: 24px;
+  }
+
+  .ItemDetail-Data-Text-Header-Text {
+    width: 300px;
+    gap: 8px;
+  }
+
+  .ItemDetail-Data-Text-Header-Text_Price {
+    height: 42px;
+  }
+
+  .Price_text {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  여기
+
+  .ItemDetail-Data-Text-Footer_Descrption {
+    width: 100%;
+    height: 146px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ItemDetail-Data-Text-Footer_Tag {
+    width: 100%;
+    height: 78px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ItemDetail-Data-Text-Footer_Descrption-Title {
+    height: 26px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .ItemDetail-Data-Text-Footer_Tag-Title {
+    height: 26px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .ItemDetail-Data-Text-Footer_Descrption-Detail {
+    background-color: white;
+    height: 104px;
+    width: 100%;
+  }
+
+  .Descrition-Title-Text {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .ItemDetail-Data-Text-Footer_Tag-List {
+    height: 36px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+  }
+
+  .product-description {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #4b5563;
+    margin: 0;
+  }
+
+  .tag {
+    background-color: #f3f4f6;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #1f2937;
+  }
+
+  .ItemDetail-Data-Footer_Profile_Text {
+    background-color: white;
+    height: 100%;
+    width: 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .ItemDetail-Data-Footer_Profile_Logo {
+    background-color: white;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .ItemDetail-Data-Footer_Profile_Text_nickname {
+    background-color: white;
+    height: 24px;
+    width: 100%;
+  }
+
+  .ItemDetail-Data-Footer_Profile_Text_Date {
+    background-color: white;
+    height: 24px;
+    width: 100%;
+  }
+
+  .Nickname {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #4b5563;
+  }
+
+  .Date {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9ca3af;
+  }
+
+  .ItemDetail-Data-Footer_Heart_btn {
+    width: 87px;
+    height: 40px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ItemDetail-Data-Footer_Heart_btn_inner {
+    width: 63px;
+    height: 32px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: white;
+  }
+
+  .heartIcon {
+    height: 100%;
+    width: 32px;
+  }
+
+  .faovriteCount {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #6b7280;
+  }
+
+  .ItemDetail-Comment_Register_Input_Container {
+    background-color: white;
+    height: 139px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .ItemDetail-Comment_Register_Input_Title {
+    background-color: white;
+    height: 26px;
+    width: 65px;
+  }
+
+  .ItemDetail-Comment_Register_Input {
+    width: 1196px;
+    height: 104px;
+    border-radius: 12px;
+    background-color: #f3f4f6;
+    border: none;
+    padding: 0 0 0 24px; /* 위쪽 패딩을 0으로, 왼쪽은 24px */
+    box-sizing: border-box; /* 패딩 포함 크기 계산 */
+    line-height: normal; /* 줄 높이 설정 */
+    padding-bottom: 40px;
+  }
+
+  .ItemDetail-Comment_Register_Btn {
+    width: 74px;
+    height: 42px;
+    background-color: #9ca3af;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  .ItemDetail-Comment_Register_Btn_text {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #f3f4f6;
+  }
+
+  /* 플레이스홀더 텍스트 위치 조정 */
+  .ItemDetail-Comment_Register_Input::placeholder {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #9ca3af;
+  }
+
+  .ItemDetail-Footer_Btn_Text {
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #f3f4f6;
+  }
+
+  .ItemDetail-Comment_Lists {
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    gap: 24px;
+  }
+
+  .ItemDetail-Comment_Lists_Text {
+    width: 100%;
+    height: 24px;
+    background-color: white;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1f2937;
+  }
+
+  .ItemDetail-Comment_Lists_Text_font {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1f2937;
+  }
+
+  .ItemDetail-Comment_Lists_Profile {
+    width: 92px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    background-color: white;
+  }
+
+  .ItemDetail-Comment_Lists_Profile_text {
+    height: 40px;
+    width: 52px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 4px;
+  }
+
+  .ItemDetail-Comment_Lists_Profile_text_nickname {
+    width: 100%;
+    height: 18px;
+    background-color: white;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+    color: #4b5563;
+  }
+
+  .ItemDetail-Comment_Lists_Profile_text_time {
+    width: 100%;
+    height: 18px;
+    background-color: white;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+    color: #9ca3af;
+  }
+
+  .ItemDetail-Comment_Lists_Profile_img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 768px) {
+}
